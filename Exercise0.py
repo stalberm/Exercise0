@@ -1,10 +1,12 @@
+#Micah Stalberg
+#Simple math bot that performs simple arithmetic on 2 numbers
+
 def bot():
 
     while True:
         command = input("SuperMathyBot> ")
         if command == "quit":
             break
-
         try:
             command, v0, v1 = command.split()
             if command not in ('add','sub','mul','div'):
